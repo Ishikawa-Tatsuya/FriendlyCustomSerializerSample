@@ -42,6 +42,10 @@ public void Test()
 ## カスタムシリアライザ
 ICustomSerializerを実装します。
 実装方法は任意ですが、本サンプルでは[MessagePack](https://www.nuget.org/packages/MessagePack)を利用しています。
+### 注意点
+シリアライズの可否はMessagePackSerializerに従いますので、BinaryFormatterでシリアライズできていたものでもこれではシリアライズできないものもあります。
+例えばデフォルトコンストラクタが存在しないなどです。
+
 
 ```csharp
 public class IntPtrFormatter : IMessagePackFormatter<IntPtr>

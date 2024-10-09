@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scenario", "Scenario\Scenario.csproj", "{953169E7-B645-4CBB-BDF5-6F21EF3D1D22}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Driver.InTarget", "Driver.InTarget\Driver.InTarget.csproj", "{3895251A-3B9A-41A9-85DA-716DC95FAB67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{953169E7-B645-4CBB-BDF5-6F21EF3D1D22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{953169E7-B645-4CBB-BDF5-6F21EF3D1D22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{953169E7-B645-4CBB-BDF5-6F21EF3D1D22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{953169E7-B645-4CBB-BDF5-6F21EF3D1D22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3895251A-3B9A-41A9-85DA-716DC95FAB67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3895251A-3B9A-41A9-85DA-716DC95FAB67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3895251A-3B9A-41A9-85DA-716DC95FAB67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3895251A-3B9A-41A9-85DA-716DC95FAB67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {571FAA1A-3846-4E5E-9792-659ACAD4EA61}
+	EndGlobalSection
+EndGlobal

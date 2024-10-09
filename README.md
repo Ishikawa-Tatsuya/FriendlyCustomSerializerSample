@@ -26,7 +26,7 @@ public void Test()
     WindowsAppFriend.SetCustomSerializer<CustomSerializer>();
 
     //WindowsAppFriendを生成
-    var app = new WindowsAppFriend(Process.Start(info));
+    var app = new WindowsAppFriend(process);
 
     //通常のFriendlyの操作
     var formControls = app.AttachFormControls();

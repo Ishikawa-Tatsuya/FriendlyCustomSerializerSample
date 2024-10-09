@@ -8,7 +8,7 @@ EnableUnsafeBinaryFormatterSerializationをfalseにしたアプリをFriedlyで�
 
 ## 対応したFriendly
 2024/10/09 時点では NuGet Gallery にはシリアライズのカスタムに対応したFriendlyシリーズはアップロードしていません。
-本リポジトリ内の Nupkgs ディレクトリにあるものを使ってください。
+本リポジトリ内の [/Nupkgs](Nupkgs)ディレクトリにあるものを使ってください。
 
 ## 利用方法
 ```csharp

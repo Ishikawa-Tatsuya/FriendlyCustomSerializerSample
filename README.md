@@ -11,6 +11,9 @@ EnableUnsafeBinaryFormatterSerializationをfalseにしたアプリをFriedlyで�
 (ソースコードはそれぞれのリポジトリにコミットしています)。
 本リポジトリ内の [/Nupkgs](Nupkgs)ディレクトリにあるものを使ってください。
 
+### 正式リリースしました
+Codeer.Friendly.Windows 2.18.0 以降はシリアライザのカスタマイズに対応しています。
+
 ## 利用方法
 ```csharp
 WindowsAppFriend.SetCustomSerializer<CustomSerializer>();
